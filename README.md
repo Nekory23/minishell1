@@ -1,6 +1,5 @@
 # minishell1
-
-{EPITECH} | First year | Unix System programming project
+# {EPITECH} | First year | Unix System programming project
 
 You have to program a UNIX command interpreter.
 The interpreter is expected to display a prompt ( $> , for example) and then wait for you to write a command
@@ -20,22 +19,23 @@ See the subject for further details !
 
 ========================
 
-1st semester Unix System programming (part II) unit
+## 1st semester Unix System programming (part II) unit
 
 Grade : C | Mark : 1.5
 
-Score : 21.6%
-
-  - Basic tests : 40% --- 2/5
-  - Path handling : 80% --- 4/5
-  - Path handling eval : 100% --- 5/5
-  - Setenv and unsetenv : 0% --- 0/2 (/!\ 2 crashed)
-  - Setenv and unsetenv eval : 0% --- 0/2 (/!\ 2 crashed)
-  - Builtin cd : 0% --- 0/3
-  - Builtin cd eval : 0% --- 0/3
-  - Line formatting (space and tabs) : 0% --- 0/8 (/!\ 1 crashed)
-  - Line formatting (space and tabs) eval : 0% --- 0/8 (/!\ 2 crashed)
-  - Error handling : 0% --- 0/5
-  - Error handling : 0% --- 0/5
+| Category                              | Percentage | Tests     | Crash ?     |
+|---------------------------------------|------------|-----------|-------------|
+| Basic tests                           | 40%        | 2/5       | x           |
+| Path handling                         | 80%        | 4/5       | x           |
+| Path handling eval                    | 100%       | 5/5       | x           |
+| Setenv and unsetenv                   | 0%         | 0/2       | Yes (2)     |
+| Setenv and unsetenv                   | 0%         | 0/2       | Yes (2)     |
+| Builtin cd                            | 0%         | 0/3       | x           |
+| Builtin cd eval                       | 0%         | 0/3       | x           |
+| Line formatting (space and tabs)      | 0%         | 0/8       | Yes (1)     |
+| Line formatting (space and tabs) eval | 0%         | 0/8       | Yes (2)     |
+| Error handling                        | 0%         | 0/5       | x           |
+| Error handling eval                   | 0%         | 0/5       | x           |
+| **End scores**                        | **21.6%**  | **11/51** | **Yes (7)** |
 
 Beware of -42 Epitech students !!!
